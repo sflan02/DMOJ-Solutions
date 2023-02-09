@@ -1,0 +1,11 @@
+width = int(input())
+percentage = int(input())
+answer=""
+
+if width == 3 and percentage >= 95:
+    answer="absolutely"
+elif width == 1 and percentage <= 50:
+    answer="fairly"
+else:
+    answer="very"
+print("C.C. is", answer,"satisfied with her pizza.")

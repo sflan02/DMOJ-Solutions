@@ -1,0 +1,8 @@
+megabytes_per_month=int(input())
+num_of_months=int(input())
+current_total=0
+for x in range(num_of_months):
+    used_megabytes=int(input())
+    current_total=current_total + megabytes_per_month
+    current_total=current_total - used_megabytes
+print(current_total+megabytes_per_month)

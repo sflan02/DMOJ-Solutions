@@ -1,0 +1,10 @@
+m=0
+n=int(input())
+yesterday=input()
+today=input()
+r=range(len(today)) 
+for x in r: 
+    if today[x] == "C" and yesterday[x]== "C":
+        m = m+1
+else:
+    print(m)

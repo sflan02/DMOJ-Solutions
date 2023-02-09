@@ -1,0 +1,6 @@
+start="A long time ago in a galaxy "
+end="far away..."
+f="far, "
+r=input()
+s=int(r)
+print(start+f*(s-1)+end)

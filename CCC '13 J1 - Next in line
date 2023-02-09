@@ -1,0 +1,6 @@
+y=int(input())
+m=int(input())
+z=(m-y)
+o=z+m
+
+print(o)

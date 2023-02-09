@@ -1,0 +1,14 @@
+a3=int(input())*3
+a2=int(input())*2
+a1=int(input())
+b3=int(input())*3
+b2=int(input())*2
+b1=int(input())
+a_score=a3+a2+a1
+b_score=b3+b2+b1
+if a_score > b_score:
+    print("A")
+elif a_score < b_score:
+    print("B")
+else:
+    print("T")

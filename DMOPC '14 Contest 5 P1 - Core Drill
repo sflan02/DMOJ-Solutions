@@ -1,0 +1,9 @@
+#Simon got a new drill recently. Everyone knows that a drill is shaped like a right circular cone. 
+#Simon knows his drill has radius  and height . But now he wants to calculate the volume. Write a program to help Simon!
+
+PI= 3.14159
+r=int(input())
+h=int(input())
+#(πr^2h)/3
+v=(PI*(r*r)*h)/3
+print(v)

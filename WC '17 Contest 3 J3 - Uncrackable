@@ -1,0 +1,17 @@
+password = input()
+num_digits = 0
+num_lowercase=0
+num_uppercase=0
+
+for x in password:
+    if x.isdigit() == True:       
+        num_digits=num_digits+1
+    elif x.islower()==True:
+        num_lowercase=num_lowercase+1
+    elif x.isupper()==True:
+        num_uppercase=num_uppercase+1
+if (len(password) >= 8 and len(password) <= 12 and 
+num_digits >= 1 and num_lowercase >= 3 and num_uppercase >= 2):
+    print("Valid")
+else:
+    print("Invalid")

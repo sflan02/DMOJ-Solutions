@@ -1,0 +1,17 @@
+n=int(input())
+student_answers=[]
+correct_answers=[]
+num_correct=0
+
+#first read in student answers
+for x in range(n):
+    i=input()
+    student_answers.append(i)
+#second read in correct answer
+for x in range(n):
+    i=input()
+    correct_answers.append(i)
+for x in range(n):
+    if student_answers[x] == correct_answers[x]:
+        num_correct=num_correct+1
+print(num_correct)
